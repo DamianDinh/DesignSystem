@@ -15,7 +15,7 @@ img {
     background: linear-gradient( 180deg, #00C5FF 0%, #B4C873 100%) no-repeat;
     color: #FFF;
     height: 100vh;
-    margin:0;
+    margin: 0;
 }
 
 .home .container{
@@ -30,39 +30,39 @@ img {
 }
 
 a{
-    background-color: #6d40d6;
-    border: none;
-    color: #fff;
-    padding: 10px 30px;
-    display: inline-block;
+    background-color:#6d40d6;
+    border:none;
+    color:#fff;
+    padding:10px 30px;
+    display:inline-block;
     font-size:12px;
 }
 
 /*Navigation------------------------------*/
 
 nav {
-    position: fixed;
-    background: #FFF;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+    position:fixed;
+    background:#FFF;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1;
+    box-shadow:0 2px 8px 0 rgba(0,0,0,0.25);
 }
 
 nav a{
-    color: #333;
-    font-weight: bold;
+    color:#333;
+    font-weight:bold;
 }
 nav .topnav li.mobile{
-    display: none;
+    display:none;
 }
 @media (max-width: 903px){
     nav .topnav ul li{
-        display: none;
+        display:none;
     }
     nav .topnav ul li.mobile{
-        display: inline-block;
+        display: nline-block;
     }
     nav .eight.columns,
     nav .four.columns {
@@ -76,68 +76,68 @@ nav .topnav li.mobile{
 }
 
 .logo a:hover{
-    color: #7453EF;
-    text-decoration: none;
+    color:#7453EF;
+    text-decoration:none;
 }
 
 .topnav{
-    text-align: right;
+    text-align:right;
 }
 
 .topnav ul{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 .topnav ul li{
-    display: inline-block;
-    vertical-align: top;
+    display:inline-block;
+    vertical-align:top;
 }
 
 .topnav a{
-    padding: 20px;
-    border-bottom: 4px solid #FFF;
-    display: block;
-    transition: background-color 0.8s ease;
+    padding:20px;
+    border-bottom:4px solid #FFF;
+    display:block;
+    transition:background-color 0.8s ease;
 }
 
 .topnav a.active{
-    padding: 20px;
-    border-bottom: 4px solid #7453EF;
+    padding:20px;
+    border-bottom:4px solid #7453EF;
     color: #7453EF;
 }
 .topnav a:hover{
-    background: #7453EF;
-    border-bottom: 4px solid #7453EF;
-    color: #FFF;
-    text-decoration: none;
+    background:#7453EF;
+    border-bottom:4px solid #7453EF;
+    color:#FFF;
+    text-decoration:none;
 }
 
 .slidenav{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:#111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:60px;
 }
 .slidenav a{
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+    padding:8px 8px 8px 32px;
+    text-decoration:none;
+    color:#818181;
+    display:block;
+    transition:0.3s;
 }
 .slidenav a:hover {
-    color: #f1f1f1;
-    text-decoration: none;
+    color:#f1f1f1;
+    text-decoration:none;
 }
 .slidenav .closebtn {
-    position: absolute;
+    position:absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
@@ -184,8 +184,8 @@ nav .topnav li.mobile{
     margin-left: 3%;
 }
 
-.column: first-child,
-.columns: first-child{
+.column:first-child,
+.columns: irst-child{
     margin-left: 0;
 }
 
@@ -270,6 +270,40 @@ footer{
     border-top: 1px solid #E1E1E1;
     margin-top: 48px;
     padding: 24px 0 0;
+}
+
+/* Primary ---------------------------------*/
+.primary .primary-1,
+.primary .primary-2,
+.primary .primary-3,{
+    height: 140px;
+}
+.primary-1{
+    background: #32C3F0;
+}
+.primary-2{
+    background: #7453EF;
+}
+.primary-2{
+    background: #333;
+}
+.secondary-1{
+    background: #EEE;
+}
+.secondary-2{
+    background: #CAC7BB;
+}
+.secondary-3{
+    background: #B4C873;
+}
+.secondary-4{
+    background: #BB2020;
+}
+.secondary-5{
+    background: #FFF100;
+}
+.secondary-6{
+    background: #F09C1F;
 }
             
     
