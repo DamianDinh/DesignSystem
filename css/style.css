@@ -185,7 +185,7 @@ nav .topnav li.mobile{
 }
 
 .column:first-child,
-.columns: irst-child{
+.columns:first-child{
     margin-left: 0;
 }
 
@@ -243,7 +243,7 @@ nav .topnav li.mobile{
     .nine.columns,
     .ten.columns,
     .eleven.columns,
-    .twelve.columns, {
+    .twelve.columns {
         width: 100%
 }
 .column,
@@ -253,7 +253,7 @@ nav .topnav li.mobile{
 }
 
 .example-grid .column,
-.example-grid .colums{
+.example-grid .columns{
     background: #EEE;
     text-align: center;
     border-radius: 4px;
@@ -275,7 +275,7 @@ footer{
 /* Primary ---------------------------------*/
 .primary .primary-1,
 .primary .primary-2,
-.primary .primary-3,{
+.primary .primary-3 {
     height: 140px;
 }
 .primary-1{
